@@ -1,0 +1,19 @@
+- title: Home
+  id: home
+  href: /index.html
+
+- title: Directions
+  id: directions
+  href: /info/directions.html
+
+- title: Gallery
+  id: gallery
+  href: /gallery/bowls.html
+
+- title: Info
+  id: info
+  href: /info/info.html
+
+- title: The Kiln Log
+  id: kilnlog
+  href: //kilnlog.bungalowpottery.com

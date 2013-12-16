@@ -1,160 +1,222 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
+/****************************
+ * General
+ */
 
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "anisette-petite-sc", sans-serif;
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 
-html, body { height: 100%; }
+p:first-child, 
+h1:first-child, 
+h2:first-child, 
+h3:first-child, 
+h4:first-child {
+  -webkit-margin-before: 0;
+}
+
+ul {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+body       { color: #444; }
+a          { color: #44d; }
+a:visited  { color: #64a; }
+
+.inputtext { width: 40em; }
+
+img { border-radius: 6px; }
+
+* { box-sizing: border-box; }
+
+
+/****************************
+ * Top level
+ */
+
+html, body { 
+  height: 100%; 
+  overflow: auto; 
+}
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  font-family: "myriad-pro",sans-serif;
+  font-size: 95%;
+
+  background-image: url("/images/backplate.jpg") ;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+main {
+  display: block;
+  background-color: #ffffe8;
+}
+
+.contentwidth {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/****************************
+ * Table layout
+ */
+
+.contenttable {
+  display: table;
+  border-spacing: 2em;
+}
+
+.innertable {
+  display: table;
+  border-spacing: 0;
+}
+
+.contenttable section {
+  display: table-row;
+}
+
+.contenttable .spacer,
+.contenttable article,
+.contenttable aside {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.spacer { width: 16px; }
+.widespacer { width: 40px; }
+
+.split { width: 50%; }
+
+
+/****************************
+ * Header / Title area
+ */
+
+header {
+  background: linear-gradient(#aa8, #dda 0.5em) left repeat;
+  font-family: "museo",serif;
+  margin-top: 10em;
+  padding: 0;
+  height: 120px;
+}
+header.home { margin-top: 16em; }
+header a { text-decoration: none; }
+
+#title { 
+  position: relative;
+  top: -1em;
+  margin-bottom: -1em;
+  font-size: 1.72em;
+  text-align: center;
+  border: 3px #664 solid;
+  width: 10em;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffe8;
+  border-radius: 6px;
+  padding-top: 0.32em;
+  padding-bottom: 0.0em;
+}
+
+#name, #business, #bullet {
+  color: #511;
+  display: inline-block;
+  margin-bottom: 0.3em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+#business {
+  color: #744;
+}
+
+#byline {
+  text-align: center;
+  font-size: 1.6em;
+  padding-top: 0.3em;
+}
+
+
+/****************************
+ * Navigation
+ */
+
+nav {
+  font-family: "anisette-petite-sc",sans-serif;
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+nav li {
+    display: inline-block;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin-top: 1.3em;
+  }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+nav a, nav a:visited { color: #444; }
+nav a       { background-color: #cc7; }
+nav a.on    { background-color: #cca; }
+nav a:hover { background-color: #ffffab; }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
+nav a {
+    border: 1px solid #998;
+    padding: 0.18em 0.45em;
+    border-radius: 6px;
+    text-decoration: none;
+  }
 }
 
-.posts li {
-  line-height: 1.75em;
+
+/****************************
+ * Content section
+ */
+
+section {
+  font-size: 96%;
 }
 
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+section nav li      { margin-top: 0; }
+section nav li a    { background-color: #eeb; }
+section nav li a.on { background-color: #cca; }
+
+.illustration { width: 280px; }
+aside img { width: 280px; }
+#map { width: 400px; }
+
+
+/****************************
+ * Footer
+ */
+footer {
+  background: #d8d8c5;
+  font-size: 90%;
+}
+footer article {
+  width: 460px;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
 
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+/****************************
+ * Slider
+ */
+
+.gallery {
+  margin-right: auto;
+  margin-left: auto;
 }
-
-.header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.title a {
-  color: #a00;
-}
-
-.title a:hover {
-  color: #000;
-}
-
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.header a.extra:hover {
-  color: #000;
-}
-
-.meta {
-  color: #aaa;
-}
-
-.footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
-
-.footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.footer .contact a {
-  color: #8085C1;
-}
-
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.footer .rss img {
-  border: 0;
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
+.gallery img {
+  width: 600px;
 }

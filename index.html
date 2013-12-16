@@ -1,13 +1,59 @@
 ---
-layout: default
-title: Your New Jekyll Site
+layout: headfoot
+title: Ken Chin-Purcell - Bungalow Pottery
+top_menu_id: home
 ---
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="contentwidth contenttable">
+  <section>
+    <aside>
+      <img alt='Gallery' src='/images/gallery.jpg' class='illustration'>
+    </aside>
+    <article>
+      <p>
+        Bungalow Pottery is the ceramics studio of Ken Chin-Purcell, and is
+        <a href='/directions'>located</a>
+        among the Milton Square shops of Saint Anthony Park in St. Paul, MN.
+      </p>
+      <p>
+        It is both a pottery and a shop that is
+        open for purchases while I am working.
+      </p>
+      <p>
+        My work is made from white stoneware and is
+        thrown and high fired at the studio.
+        My goal is to make pots that you can give or use with pleasure:
+        expressive and beautiful.
+      </p>
+    </article>
+  </section>
+  <section>
+    <aside>
+      <img alt='Plate' src='/images/full-plate.jpg' class='illustration'>
+    </aside>
+    <article class='schedule'>
+      {% include schedule.html %}
+    </article>
+  </section>
+  <section>
+    <aside></aside>
+    <article class='kilnlog'>
+      <p>
+        tk - fill in kiln log
+      </p>
+    </article>
+  </section>
+  <section>
+    <aside>
+      <img alt='Cups' src='/images/green-cups.jpg' class='illustration'>
+    </aside>
+    <article>
+      <h3>
+        Also Available At:
+      </h3>
+      <ul>
+        <li>The Bibelot Shops, Twin Cities</li>
+        <li>Lanesboro Arts Center, Lanesboro MN</li>
+      </ul>
+    </article>
+  </section>
 </div>

@@ -1,0 +1,100 @@
+bowls:
+  - file: images/gallery/bowls/bowls-02.jpg
+    caption: 11" Bowl | $42
+  - file: images/gallery/bowls/bowls-05.jpg
+    caption: Condiment Dish | $18
+  - file: images/gallery/bowls/kcp-08126.jpg
+    caption: Berry Bowl | $44
+  - file: images/gallery/bowls/kcp-08156.jpg
+    caption: Slip Bowl | $44
+  - file: images/gallery/bowls/kcp-09163.jpg
+    caption: Large Bowl | $64
+  - file: images/gallery/bowls/kcp-09166.jpg
+    caption: Bowl | $44
+  - file: images/gallery/bowls/kcp-09169.jpg
+    caption: Green Bowl | $44
+  - file: images/gallery/bowls/kcp-09176.jpg
+    caption: Bowl | $44
+  - file: images/gallery/bowls/kcp-09189.jpg
+    caption: Desert Cup | $18
+  - file: images/gallery/bowls/kcp-09193.jpg
+    caption: Large Bowl | $72
+cups:
+  - file: images/gallery/cups/cups-03.jpg
+    caption: Goblet | $28
+  - file: images/gallery/cups/cups-04.jpg
+    caption: Mugs | $24 ea
+  - file: images/gallery/cups/cups-06.jpg
+    caption: Mug | $24
+  - file: images/gallery/cups/cups-09.jpg
+    caption: Faceted Cup | $24
+  - file: images/gallery/cups/kcp-05742.jpg
+    caption: Faceted Cup | $24
+  - file: images/gallery/cups/kcp-08120.jpg
+    caption: Mug, $24
+  - file: images/gallery/cups/kcp-09191.jpg
+    caption: Mug | $24
+  - file: images/gallery/cups/kcp-09192.jpg
+    caption: Mug | $24
+glazes:
+  - file: images/gallery/glazes/glazes-01.jpg
+    caption: Tea Dust
+  - file: images/gallery/glazes/glazes-02.jpg
+    caption: Blue & Gold
+  - file: images/gallery/glazes/glazes-03.jpg
+    caption: Black Gold
+  - file: images/gallery/glazes/glazes-04.jpg
+    caption: White Tea
+  - file: images/gallery/glazes/glazes-05.jpg
+    caption: Amber
+  - file: images/gallery/glazes/kcp-05742.jpg
+    caption: Deep Green
+  - file: images/gallery/glazes/kcp-08117.jpg
+    caption: Opal
+  - file: images/gallery/glazes/kcp-08118.jpg
+    caption: Buck
+platters:
+  - file: images/gallery/platters/platters-01.jpg
+    caption: Platter | $102
+  - file: images/gallery/platters/platters-02.jpg
+    caption: 10 inches long | $36
+  - file: images/gallery/platters/platters-03.jpg
+    caption: Medium Platter | $72
+  - file: images/gallery/platters/platters-04.jpg
+    caption: Medium Platter | $72
+  - file: images/gallery/platters/platters-05.jpg
+    caption: Platter | $102
+  - file: images/gallery/platters/platters-06.jpg
+    caption: Medium Platter | $72
+serving:
+  - file: images/gallery/serving/kcp-08158.jpg
+    caption: Tall Pittcher | $72
+  - file: images/gallery/serving/serving-01.jpg
+    caption: Sugar Jar  |$34
+  - file: images/gallery/serving/serving-02.jpg
+    caption: Large Casserole | $72
+  - file: images/gallery/serving/serving-03.jpg
+    caption: Tableware
+  - file: images/gallery/serving/serving-04.jpg
+    caption: Cake Plate | $62
+  - file: images/gallery/serving/serving-05.jpg
+    caption: Salt or Yarn Pig | $40
+vessels:
+  - file: images/gallery/vessels/kcp-08152.jpg
+    caption: Small Vase | $24
+  - file: images/gallery/vessels/kcp-09181.jpg
+    caption: Vase | $38
+  - file: images/gallery/vessels/kcp-09186.jpg
+    caption: Jar | $42
+  - file: images/gallery/vessels/vessels-02.jpg
+    caption: Pitcher | $52
+  - file: images/gallery/vessels/vessels-03.jpg
+    caption: Creamer, $24
+  - file: images/gallery/vessels/vessels-04.jpg
+    caption: Teapot | $72
+  - file: images/gallery/vessels/vessels-05.jpg
+    caption: Vase | $42
+  - file: images/gallery/vessels/vessels-06.jpg
+    caption: Vase | $42
+  - file: images/gallery/vessels/vessels-07.jpg
+    caption: Creamer | $24

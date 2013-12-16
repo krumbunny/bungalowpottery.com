@@ -1,0 +1,64 @@
+---
+layout: root
+---
+{% if page.top_menu_id == 'home' %}
+<header class='home'>
+{% else %}
+<header>
+{% endif %}
+  <div class='contentwidth'>
+    <div id='title'>
+      <a href='/'>
+        <span id='business'>Ken Chin-Purcell</span>
+      </a>
+    </div>
+    <div id='byline'>
+      Bungalow Pottery, St. Paul, MN
+    </div>
+    <nav>
+      <ul>
+        {% for menu in site.data.topmenu %}
+        <li>
+          {% if menu.id == page.top_menu_id %}
+          <a href="{{ menu.href }}" id="{{ menu.id }}" class="on">{{ menu.title }}</a>
+          {% else %}
+          <a href="{{ menu.href }}" id="{{ menu.id }}">{{ menu.title }}</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  {{ content }} 
+</main>
+
+<footer>
+  <div class="contentwidth contenttable">
+    <section>
+      <article class='split'>
+        <p>
+          Call anytime:
+          <strong>651-644-4091</strong>
+          <br>
+          Email: ken at bungalow pottery dot com
+        </p>
+        <p>
+          2230 Carter Ave. #5<br>St. Paul, MN 55108
+        </p>
+        <p>
+          ©2003-2013 Ken Chin-Purcell.<br>The future is handmade!
+        </p>
+      </article>
+      <article class='split'>
+        <p>
+          Bungalow Pottery is 100% wind powered by Xcel Energy’s
+          <a href='http://www.xcelenergy.com/Environment/Doing_Your_Part/Support_Clean_Energy/Windsource_for_Business_-_MN'>Windsource</a>
+        </p>
+        <p><a href='/info/website.html'>About this website</a></p>
+      </article>
+    </section>
+  </div>
+</footer>

@@ -1,0 +1,36 @@
+---
+layout: headfoot
+script: /script/jquery.cycle2.min.js
+top_menu_id: gallery
+---
+<div class="contentwidth contenttable">
+
+  <section>
+    <nav>
+      <ul>
+        {% for menu in site.data.gallerymenu %}
+        <li>
+          {% if menu.id == page.gallery_menu_id %}
+          <a href="{{ menu.href }}" id="{{ menu.id }}" class="on">{{ menu.title }}</a>
+          {% else %}
+          <a href="{{ menu.href }}" id="{{ menu.id }}">{{ menu.title }}</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </section>
+    
+  <section>
+    <div class="gallery cycle-slideshow" 
+      data-cycle-caption-template="{{"{{alt"}}}}"
+      data-cycle-fx="scrollHorz"
+      >
+      <div class="cycle-caption"></div>
+      {% for entry in site.data.gallery[page.gallery_menu_id] %}
+      <img src="/{{ entry.file }}" alt="{{ entry.caption }}">
+      {% endfor %}
+    </div>
+  </section>
+
+</div>

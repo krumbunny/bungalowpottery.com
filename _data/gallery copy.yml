@@ -1,0 +1,53 @@
+bowls:
+  - file: bowls/bowls-02.jpg
+  - file: bowls/bowls-05.jpg
+  - file: bowls/kcp-08126.jpg
+  - file: bowls/kcp-08156.jpg
+  - file: bowls/kcp-09163.jpg
+  - file: bowls/kcp-09166.jpg
+  - file: bowls/kcp-09169.jpg
+  - file: bowls/kcp-09176.jpg
+  - file: bowls/kcp-09189.jpg
+  - file: bowls/kcp-09193.jpg
+cups:
+  - file: cups/cups-03.jpg
+  - file: cups/cups-04.jpg
+  - file: cups/cups-06.jpg
+  - file: cups/cups-09.jpg
+  - file: cups/kcp-05742.jpg
+  - file: cups/kcp-08120.jpg
+  - file: cups/kcp-09191.jpg
+  - file: cups/kcp-09192.jpg
+glazes:
+  - file: glazes/glazes-01.jpg
+  - file: glazes/glazes-02.jpg
+  - file: glazes/glazes-03.jpg
+  - file: glazes/glazes-04.jpg
+  - file: glazes/glazes-05.jpg
+  - file: glazes/kcp-05742.jpg
+  - file: glazes/kcp-08117.jpg
+  - file: glazes/kcp-08118.jpg
+platters:
+  - file: platters/platters-01.jpg
+  - file: platters/platters-02.jpg
+  - file: platters/platters-03.jpg
+  - file: platters/platters-04.jpg
+  - file: platters/platters-05.jpg
+  - file: platters/platters-06.jpg
+serving:
+  - file: serving/kcp-08158.jpg
+  - file: serving/serving-01.jpg
+  - file: serving/serving-02.jpg
+  - file: serving/serving-03.jpg
+  - file: serving/serving-04.jpg
+  - file: serving/serving-05.jpg
+vessels:
+  - file: vessels/kcp-08152.jpg
+  - file: vessels/kcp-09181.jpg
+  - file: vessels/kcp-09186.jpg
+  - file: vessels/vessels-02.jpg
+  - file: vessels/vessels-03.jpg
+  - file: vessels/vessels-04.jpg
+  - file: vessels/vessels-05.jpg
+  - file: vessels/vessels-06.jpg
+  - file: vessels/vessels-07.jpg
