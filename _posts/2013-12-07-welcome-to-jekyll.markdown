@@ -1,24 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2013-12-07 21:53:11
-categories: jekyll update
+title:  "Slip Work"
+date:   2013-12-22
+categories: studio pots
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+![Slip Bowl](/images/kilnlog/kcp-05844.jpg)
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+The exploration of using slips continues. This series of pots uses a copper slip with a slightly thicker overglaze. The rim is finished with a blend of Redart clay and frit.

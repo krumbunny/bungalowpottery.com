@@ -196,6 +196,10 @@ section nav li a.on { background-color: #cca; }
 aside img { width: 280px; }
 #map { width: 400px; }
 
+.kilnlog img {
+  width: 512px;
+}
+
 
 /****************************
  * Footer

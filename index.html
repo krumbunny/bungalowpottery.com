@@ -35,11 +35,16 @@ top_menu_id: home
     </article>
   </section>
   <section>
-    <aside></aside>
+    <aside>
+      <p>&nbsp;</p>
+      <h3>From the Kiln Log:</h3>
+    </aside>
     <article class='kilnlog'>
-      <p>
-        tk - fill in kiln log
-      </p>
+      {% for post in site.posts limit: 1 %}
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.content }}</p>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
     </article>
   </section>
   <section>
