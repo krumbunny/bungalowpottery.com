@@ -41,9 +41,8 @@ top_menu_id: home
     </aside>
     <article class='kilnlog'>
       {% for post in site.posts limit: 1 %}
-        <h3>{{ post.title }}</h3>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <p>{{ post.content }}</p>
-        <a href="{{ post.url }}">{{ post.title }}</a>
       {% endfor %}
     </article>
   </section>

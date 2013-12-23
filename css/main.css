@@ -43,7 +43,7 @@ html, body {
 
 body {
   font-family: "myriad-pro",sans-serif;
-  font-size: 95%;
+  font-size: 15px;
 
   background-image: url("/images/backplate.jpg") ;
   background-attachment: fixed;
@@ -197,9 +197,12 @@ aside img { width: 280px; }
 #map { width: 400px; }
 
 .kilnlog img {
-  width: 512px;
+  max-width: 512px;
 }
 
+.schedule ul {
+  padding-left: 1.5em;
+}
 
 /****************************
  * Footer
@@ -224,3 +227,23 @@ footer article {
 .gallery img {
   width: 600px;
 }
+
+@media only screen and (max-width: 920px) {
+  .contentwidth { max-width: 760px; }
+  .illustration { width: 180px; }
+  .kilnlog img { max-width: 460px; }
+  section { font-size: 92%; }
+}
+
+@media only screen and (max-width: 760px) {
+  .contenttable aside { display: block }
+  .contenttable article { display: block; }
+  #title { font-size: 1.5em; }  
+  #byline { font-size: 1.4em; }  
+  header { height: 144px; }
+}
+
+@media only screen and (max-width: 512px) {
+  .kilnlog img { max-width: 320px; }
+}
+
