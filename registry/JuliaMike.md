@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Bungalow Pottery - Registries
+top_menu_id: registry
 aside_content: <img src="/images/JuliaMike.jpg">
 ---
 
