@@ -25,4 +25,10 @@ then I will throw and fire the tableware together, so it hangs as one set.
 
 Please call me at 651-644-4091 if you have any questions.
 
+I use my credit card processor's online store to handle transactions. The link below will take you to the Bungalow Pottery section of Square's website.
+
 ### Proceed to [Julia and Mike's Registry](https://squareup.com/market/bungalow-pottery#category-0bcd4047-f9f9-40fd-a259-e59658a57f0e)
+
+&nbsp;
+
+![Blue and Gold Bowl](/images/bgbowl.jpg)
