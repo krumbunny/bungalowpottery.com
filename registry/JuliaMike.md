@@ -23,7 +23,7 @@ Ordering a place setting is the the same as ordering a dinner plate, salad plate
 After the wedding Julia, Mike and I will meet to finalize the details, 
 then I will throw and fire the tableware together, so it hangs as one set.
 
-Please call me at 651-644-4091 if you have any questions.
+Please call me at 612-234-POTS if you have any questions.
 
 I use my credit card processor's online store to handle transactions. The link below will take you to the Bungalow Pottery section of Square's website.
 
